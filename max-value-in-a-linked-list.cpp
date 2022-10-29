@@ -24,7 +24,7 @@ void createLinkedList(int a[], int n) {
     }
 }
 
-// display full linked list iteratively
+// display full linked list recursively
 void displayLinkedList(struct Node *p) {
     if (p != NULL) {
         printf("%d -> ", p->val);
